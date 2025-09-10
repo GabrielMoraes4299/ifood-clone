@@ -9,7 +9,7 @@
 
 # Documentação do Projeto
 
-## Diagramas de Sequeência
+## Diagramas de Sequência
 
 - [Diagrama de Sequência - Entregar Pedido](./Diagrama%20de%20Sequência%20-%20Entregar%20Pedido.png)  
 - [Diagrama de Sequência - Realizar Pedido](./Diagrama%20de%20Sequência%20-%20Realizar%20Pedido.png)
