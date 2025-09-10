@@ -5,7 +5,7 @@
   Eu como **usuário** quero pedir comida pelo aplicativo para recebê-la do conforto da minha casa.  
 
 - **Motorista**  
-  Eu como **motorista** quero receber as informações do pedido de forma precisa para entregar o pedido corretamente.  
+  Eu como **entregador** quero receber as informações do pedido de forma precisa para entregar o pedido corretamente.  
 
 # Documentação do Projeto
 
@@ -18,4 +18,5 @@
 - [Entregar Pedido](./Entregar%20Pedido.png)  
 
 ## Telas
-- [Esboço de Tela](./Esboço%20de%20Tela.png)  
+- [Esboço de Tela](./Esboço%20de%20Tela%20-%20Usuário.png)  
+- [Esboço de Tela](./Esboço%20de%20Tela%20-%20Entregador.png)  
