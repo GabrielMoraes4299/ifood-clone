@@ -10,14 +10,12 @@
 # Documentação do Projeto
 
 ## Diagramas de Sequência
-
-- [Diagrama de Sequência - Entregar Pedido](./Diagrama%20de%20Sequência%20-%20Entregar%20Pedido.png)  
 - [Diagrama de Sequência - Realizar Pedido](./Diagrama%20de%20Sequência%20-%20Realizar%20Pedido.png)
+- [Diagrama de Sequência - Entregar Pedido](./Diagrama%20de%20Sequência%20-%20Entregar%20Pedido.png)  
 
 ## Diagramas de Caso de Uso
 - [Realizar Pedido](./Realizar%20Pedido.png)  
 - [Entregar Pedido](./Entregar%20Pedido.png)  
 
 ## Telas
-
 - [Esboço de Tela](./Esboço%20de%20Tela.png)  
