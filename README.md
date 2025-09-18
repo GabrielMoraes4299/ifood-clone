@@ -2,11 +2,11 @@
 # Histórias de Usuário
 
 - **Usuário**  
-  Eu como **usuário** quero pedir comida pelo aplicativo para recebê-la do conforto da minha casa.
+  Eu como **usuário** quero pedir comida pelo aplicativo para recebê-la do conforto da minha casa.  
   Eu como **usuário** quero visualizar os pedidos do meu carrinho para poder gerenciar os itens que desejo adquirir.  
 
 - **Motorista**  
-  Eu como **entregador** quero receber as informações do pedido de forma precisa para entregar o pedido corretamente.
+  Eu como **entregador** quero receber as informações do pedido de forma precisa para entregar o pedido corretamente.  
   Eu como **entregador** quero visualizar os dados financeiros de minhas entregar para poder gerenciar melhor meus ganhos.
 
 # Documentação do Projeto
