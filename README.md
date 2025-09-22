@@ -14,15 +14,15 @@
 # Documentação do Projeto
 
 ## Diagramas de Sequência
-- [Diagrama de Sequência - Realizar Pagamento](./Diagrama%20de%20Sequência%20-%20Realizar%20Pagamento.png)
-- [Diagrama de Sequência - Visualizar Detalhes do Pedido](./Diagrama%20de%20Sequência%20-%20Visualizar%20Detalhes%20do%20Pedido.png)
-- [Diagrama de Sequência - Visualizar Histórico de Entregas](./Diagrama%20de%20Sequência%20-%20Visualizar%20Histórico%20de%20Entregas.png)
-- [Diagrama de Sequência - Buscar Produtos](./Diagrama%20de%20Sequência%20-%20Buscar%20Produtos.png)
-- [Diagrama de Sequência - Gerenciar Carrinho](./Diagrama%20de%20Sequência%20-%20Gerenciar%20Carrinho.png)
+- [Realizar Pagamento](./Diagrama%20de%20Sequência%20-%20Realizar%20Pagamento.png)
+- [Visualizar Detalhes do Pedido](./Diagrama%20de%20Sequência%20-%20Visualizar%20Detalhes%20do%20Pedido.png)
+- [Visualizar Histórico de Entregas](./Diagrama%20de%20Sequência%20-%20Visualizar%20Histórico%20de%20Entregas.png)
+- [Buscar Produtos](./Diagrama%20de%20Sequência%20-%20Buscar%20Produtos.png)
+- [Gerenciar Carrinho](./Diagrama%20de%20Sequência%20-%20Gerenciar%20Carrinho.png)
 
 ## Diagramas de Caso de Uso
-- [Realizar Pedido](./Realizar%20Pedido.png)  
-- [Entregar Pedido](./Entregar%20Pedido.png)  
+- [Usuário](./Diagrama%20de%20Casos%20de%20Uso%20-%20Usuário.png)
+- [Entregador](./Diagrama%20de%20Casos%20de%20Uso%20-%20Entregador.png)
 
 ## Telas
 - [Esboço de Tela - Usuário](./Esboço%20de%20Tela%20-%20Usuário.png)  
