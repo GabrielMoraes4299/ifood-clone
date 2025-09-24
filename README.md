@@ -27,3 +27,12 @@
 ## Telas
 - [Esboço de Tela - Usuário](./Esboço%20de%20Tela%20-%20Usuário.png)  
 - [Esboço de Tela - Entregador](./Esboço%20de%20Tela%20-%20Entregador.png)  
+
+# Requisitos Não-Funcionais
+
+## Usabilidade
+## Desempenho
+## Manutenibilidade
+## Portabilidade
+## Segurança
+## Confiabilidade
