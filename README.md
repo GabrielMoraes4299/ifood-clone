@@ -13,9 +13,6 @@
 # Gherkin Usuário  
 
 ## Buscar restaurantes e produtos
-Feature: Buscar restaurantes e produtos  
-  Como usuário quero buscar restaurantes e produtos pelo aplicativo para escolher o que vou pedir  
-
   Scenario: Usuário pesquisa por um restaurante existente  
     Given que o usuário está na tela inicial do aplicativo  
     When ele digitar o nome de um restaurante na busca  
@@ -26,12 +23,14 @@ Feature: Buscar restaurantes e produtos
     When ele digitar o nome de um produto na busca  
     Then o sistema deve exibir restaurantes que oferecem esse produto  
 
+  Scenario: Usuário pesquisa por um produto ou restaurante existente  
+    Given que o usuário está na tela inicial do aplicativo  
+    When ele digitar o nome de um produto ou restaurante na busca  
+    Then o sistema deve exibir uma mensagem de produtos ou restaurantes não encontrados  
+
 ---
 
 ## Adicionar e remover itens do carrinho
-Feature: Gerenciar carrinho  
-  Como usuário quero adicionar e remover itens do meu carrinho para controlar o que vou comprar  
-
   Scenario: Usuário adiciona um item ao carrinho  
     Given que o usuário visualiza um cardápio de restaurante  
     When ele selecionar um produto e clicar em "Adicionar ao carrinho"  
@@ -45,9 +44,6 @@ Feature: Gerenciar carrinho
 ---
 
 ## Finalizar pedido e pagar
-Feature: Finalizar pedido e pagamento  
-  Como usuário quero finalizar o pedido e pagar pelo aplicativo para recebê-lo no conforto da minha casa  
-
   Scenario: Usuário finaliza pedido com sucesso  
     Given que o usuário tem itens no carrinho  
     And escolheu a forma de pagamento  
@@ -68,9 +64,6 @@ Feature: Finalizar pedido e pagamento
 # Gherkin Entregador  
 
 ## Visualizar detalhes do pedido
-Feature: Visualizar detalhes do pedido  
-  Como entregador quero visualizar os detalhes do pedido (itens, endereço de entrega, forma de pagamento) para realizar a entrega corretamente  
-
   Scenario: Entregador acessa detalhes de um pedido disponível  
     Given que o entregador está logado no aplicativo  
     When ele abrir a tela de "Pedidos disponíveis"  
@@ -79,13 +72,15 @@ Feature: Visualizar detalhes do pedido
 ---
 
 ## Acessar histórico de entregas e ganhos
-Feature: Histórico de entregas e ganhos  
-  Como entregador quero acessar meu histórico de entregas e ganhos para acompanhar meu faturamento  
-
   Scenario: Entregador acessa histórico  
     Given que o entregador está logado no aplicativo  
     When ele acessar a tela de "Histórico"  
     Then o sistema deve mostrar a lista de entregas concluídas com valores pagos  
+
+  Scenario: Entregador acessa histórico  
+    Given que o entregador está logado no aplicativo  
+    When ele acessar a tela de "Histórico" mas não tem entregas concluídas  
+    Then o sistema deve mostrar uma mensagem de que não há entregas concluídas 
 
   Scenario: Entregador filtra histórico por período  
     Given que o entregador está na tela de "Histórico"  
