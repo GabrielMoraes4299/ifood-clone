@@ -67,12 +67,12 @@
 # Gherkin Entregador  
 
 ## Visualizar pedidos
-  Scenario: Entregador acessa detalhes de um pedido disponível  
-    Given que o entregador está logado no aplicativo  
-    When ele abrir a tela de "Pedidos disponíveis"
-    And não houver nenhum pedido
-    Then o sistema deve exibir os pedidos pendentes com itens, endereço e forma de pagamento
-    
+Scenario: Entregador acessa detalhes de um pedido disponível
+  Given que o entregador está logado no aplicativo
+  When ele abrir a tela de "Pedidos disponíveis"
+  And não houver nenhum pedido
+  Then o sistema deve exibir os pedidos pendentes com itens, endereço e forma de pagamento
+
 ---
 
 ## Visualizar detalhes do pedido
