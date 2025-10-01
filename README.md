@@ -4,13 +4,93 @@
   ## Usuário
 - Eu como **usuário** quero buscar restaurantes e produtos pelo aplicativo para escolher o que vou pedir.  
 - Eu como **usuário** quero adicionar e remover itens do meu carrinho para controlar o que vou comprar.  
-- Eu como **usuário** quero finalizar o pedido e pagar pelo aplicativo para recebê-lo no conforto da minha casa.  
+- Eu como **usuário** quero finalizar o pedido e pagar pelo aplicativo para recebê-lo no conforto da minha casa.
 
 ## Entregador
 - Eu como **entregador** quero visualizar os detalhes do pedido (itens, endereço de entrega, forma de pagamento) para realizar a entrega corretamente.  
 - Eu como **entregador** quero acessar meu histórico de entregas e ganhos para acompanhar meu faturamento.  
 
-# Gherkin
+# Gherkin Usuário  
+
+## Buscar restaurantes e produtos
+Feature: Buscar restaurantes e produtos  
+  Como usuário quero buscar restaurantes e produtos pelo aplicativo para escolher o que vou pedir  
+
+  Scenario: Usuário pesquisa por um restaurante existente  
+    Given que o usuário está na tela inicial do aplicativo  
+    When ele digitar o nome de um restaurante na busca  
+    Then o sistema deve exibir a lista de restaurantes correspondentes  
+
+  Scenario: Usuário pesquisa por um produto existente  
+    Given que o usuário está na tela inicial do aplicativo  
+    When ele digitar o nome de um produto na busca  
+    Then o sistema deve exibir restaurantes que oferecem esse produto  
+
+---
+
+## Adicionar e remover itens do carrinho
+Feature: Gerenciar carrinho  
+  Como usuário quero adicionar e remover itens do meu carrinho para controlar o que vou comprar  
+
+  Scenario: Usuário adiciona um item ao carrinho  
+    Given que o usuário visualiza um cardápio de restaurante  
+    When ele selecionar um produto e clicar em "Adicionar ao carrinho"  
+    Then o produto deve ser incluído no carrinho  
+
+  Scenario: Usuário remove um item do carrinho  
+    Given que o usuário possui itens no carrinho  
+    When ele clicar em "Remover" em um produto do carrinho  
+    Then o produto deve ser retirado do carrinho  
+
+---
+
+## Finalizar pedido e pagar
+Feature: Finalizar pedido e pagamento  
+  Como usuário quero finalizar o pedido e pagar pelo aplicativo para recebê-lo no conforto da minha casa  
+
+  Scenario: Usuário finaliza pedido com sucesso  
+    Given que o usuário tem itens no carrinho  
+    And escolheu a forma de pagamento  
+    When ele clicar em "Finalizar pedido"  
+    Then o sistema deve registrar o pedido  
+    And o pagamento deve ser processado  
+    And o usuário deve ver a confirmação com o tempo estimado de entrega  
+
+  Scenario: Pagamento não autorizado  
+    Given que o usuário tem itens no carrinho  
+    And escolheu a forma de pagamento  
+    When o pagamento for recusado pelo sistema de pagamento  
+    Then o sistema deve informar que o pagamento não foi autorizado  
+    And permitir que o usuário tente novamente ou escolha outra forma de pagamento  
+
+---
+
+# Gherkin Entregador  
+
+## Visualizar detalhes do pedido
+Feature: Visualizar detalhes do pedido  
+  Como entregador quero visualizar os detalhes do pedido (itens, endereço de entrega, forma de pagamento) para realizar a entrega corretamente  
+
+  Scenario: Entregador acessa detalhes de um pedido disponível  
+    Given que o entregador está logado no aplicativo  
+    When ele abrir a tela de "Pedidos disponíveis"  
+    Then o sistema deve exibir os pedidos pendentes com itens, endereço e forma de pagamento  
+
+---
+
+## Acessar histórico de entregas e ganhos
+Feature: Histórico de entregas e ganhos  
+  Como entregador quero acessar meu histórico de entregas e ganhos para acompanhar meu faturamento  
+
+  Scenario: Entregador acessa histórico  
+    Given que o entregador está logado no aplicativo  
+    When ele acessar a tela de "Histórico"  
+    Then o sistema deve mostrar a lista de entregas concluídas com valores pagos  
+
+  Scenario: Entregador filtra histórico por período  
+    Given que o entregador está na tela de "Histórico"  
+    When ele selecionar um intervalo de datas  
+    Then o sistema deve exibir apenas as entregas realizadas nesse período
 
 # Documentação do Projeto
 
