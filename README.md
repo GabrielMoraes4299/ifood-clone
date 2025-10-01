@@ -89,6 +89,11 @@
     When ele selecionar um intervalo de datas  
     Then o sistema deve exibir apenas as entregas realizadas nesse período
 
+  Scenario: Entregador filtra histórico por período  
+  Given que o entregador está na tela de "Histórico"  
+  When ele selecionar um intervalo de datas inválidas  
+  Then o sistema deve exibir uma mensagem pedindo datas válidas
+
 ---
 
 # Documentação do Projeto
