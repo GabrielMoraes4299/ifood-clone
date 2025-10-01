@@ -10,6 +10,8 @@
 - Eu como **entregador** quero visualizar os detalhes do pedido (itens, endereço de entrega, forma de pagamento) para realizar a entrega corretamente.  
 - Eu como **entregador** quero acessar meu histórico de entregas e ganhos para acompanhar meu faturamento.  
 
+---
+
 # Gherkin Usuário  
 
 ## Buscar restaurantes e produtos
@@ -87,6 +89,8 @@
     When ele selecionar um intervalo de datas  
     Then o sistema deve exibir apenas as entregas realizadas nesse período
 
+---
+
 # Documentação do Projeto
 
 ## Diagramas de Sequência
@@ -103,6 +107,8 @@
 ## Telas
 - [Esboço de Tela - Usuário](./Esboço%20de%20Tela%20-%20Usuário.png)  
 - [Esboço de Tela - Entregador](./Esboço%20de%20Tela%20-%20Entregador.png)  
+
+---
 
 # Requisitos Não-Funcionais
 
