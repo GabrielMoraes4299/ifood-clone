@@ -68,20 +68,26 @@
 
 ## Visualizar pedidos
 
-Scenario: Entregador acessa detalhes de um pedido disponível
+Scenario: Entregador acessa a tela de "Pedidos" com pedidos disponíveis
+Given que o entregador está logado no aplicativo  
+When ele abrir a tela de "Pedidos"  
+And houver pedidos  
+Then o sistema deve exibir os pedidos
+
+Scenario: Entregador acessa a tela de "Pedidos" sem pedidos
 Given que o entregador está logado no aplicativo  
 When ele abrir a tela de "Pedidos disponíveis"  
-And não houver nenhum pedido  
-Then o sistema deve exibir os pedidos pendentes com itens, endereço e forma de pagamento
+And não houver pedidos  
+Then o sistema deve exibir uma mensagem informando que não há pedidos
 
 ---
 
 ## Visualizar detalhes do pedido
-  Scenario: Entregador acessa detalhes de um pedido disponível  
-    Given que o entregador está logado no aplicativo  
-    When ele abrir a tela de "Pedidos disponíveis"
-    And clicar em um pedido
-    Then o sistema deve exibir os itens, endereço e forma de pagamento  
+Scenario: Entregador acessa detalhes de um pedido disponível
+Given que o entregador está logado no aplicativo  
+When ele abrir a tela de "Pedidos disponíveis"  
+And clicar em um pedido  
+Then o sistema deve exibir os pedidos pendentes com itens, endereço e forma de pagamento
 
 ---
 
