@@ -7,6 +7,7 @@
 - Eu como **usuário** quero finalizar o pedido e pagar pelo aplicativo para recebê-lo no conforto da minha casa.
 
 ## Entregador
+- Eu como **entregador** quero visualizar os pedidos para saber quantos pedidos tenho para entregar
 - Eu como **entregador** quero visualizar os detalhes do pedido (itens, endereço de entrega, forma de pagamento) para realizar a entrega corretamente.  
 - Eu como **entregador** quero acessar meu histórico de entregas e ganhos para acompanhar meu faturamento.  
 
@@ -65,11 +66,21 @@
 
 # Gherkin Entregador  
 
+## Visualizar pedidos
+  Scenario: Entregador acessa detalhes de um pedido disponível  
+    Given que o entregador está logado no aplicativo  
+    When ele abrir a tela de "Pedidos disponíveis"
+    And não houver nenhum pedido
+    Then o sistema deve exibir os pedidos pendentes com itens, endereço e forma de pagamento
+    
+---
+
 ## Visualizar detalhes do pedido
   Scenario: Entregador acessa detalhes de um pedido disponível  
     Given que o entregador está logado no aplicativo  
-    When ele abrir a tela de "Pedidos disponíveis"  
-    Then o sistema deve exibir os pedidos pendentes com itens, endereço e forma de pagamento  
+    When ele abrir a tela de "Pedidos disponíveis"
+    And clicar em um pedido
+    Then o sistema deve exibir os itens, endereço e forma de pagamento  
 
 ---
 
