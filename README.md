@@ -6,9 +6,13 @@ objetivo é aplicar os conceitos de
 levantamento de requisitos, modelagem e
 prototipação de sistemas.
 
-### Autores
+---
+
+# Autores
 - Gabriel Chagas Fernandes de Moraes – Análise e Desenvolvimento de Sistemas  
 Trabalho desenvolvido para a disciplina de Engenharia de Software.
+
+---
 
 # Histórias de Usuário
 
