@@ -1,4 +1,15 @@
 # ifood-clone
+Este projeto é um cione conceitual do
+iFood, desenvolvido como parte da
+disciplina de Engenharia de Software. O
+objetivo é aplicar os conceitos de
+levantamento de requisitos, modelagem e
+prototipação de sistemas.
+
+### Autores
+- Gabriel Chagas Fernandes de Moraes – Análise e Desenvolvimento de Sistemas  
+Trabalho desenvolvido para a disciplina de Engenharia de Software.
+
 # Histórias de Usuário
 
   ## Usuário
