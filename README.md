@@ -1,5 +1,5 @@
 # ifood-clone
-Este projeto é um cione conceitual do
+Este projeto é um clone conceitual do
 iFood, desenvolvido como parte da
 disciplina de Engenharia de Software. O
 objetivo é aplicar os conceitos de
