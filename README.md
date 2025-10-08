@@ -15,10 +15,10 @@ prototipação de sistemas.
 
 # Histórias de Usuário
 
-  ## Usuário
-- Eu como **usuário** quero buscar restaurantes e produtos pelo aplicativo para escolher o que vou pedir.  
-- Eu como **usuário** quero adicionar e remover itens do meu carrinho para controlar o que vou comprar.  
-- Eu como **usuário** quero finalizar o pedido e pagar pelo aplicativo para recebê-lo no conforto da minha casa.
+  ## Cliente
+- Eu como **cliente** quero buscar restaurantes e produtos pelo aplicativo para escolher o que vou pedir.  
+- Eu como **cliente** quero adicionar e remover itens do meu carrinho para controlar o que vou comprar.  
+- Eu como **cliente** quero finalizar o pedido e pagar pelo aplicativo para recebê-lo no conforto da minha casa.
 
 ## Entregador
 - Eu como **entregador** quero visualizar os pedidos para saber quantos pedidos tenho para entregar
@@ -27,20 +27,20 @@ prototipação de sistemas.
 
 ---
 
-# Gherkin Usuário  
+# Gherkin Cliente  
 
 ## Buscar restaurantes e produtos
-  Scenario: Usuário pesquisa por um restaurante existente  
+  Scenario: Cliente pesquisa por um restaurante existente  
     Given que o usuário está na tela inicial do aplicativo  
     When ele digitar o nome de um restaurante na busca  
     Then o sistema deve exibir a lista de restaurantes correspondentes  
 
-  Scenario: Usuário pesquisa por um produto existente  
+  Scenario: Cliente pesquisa por um produto existente  
     Given que o usuário está na tela inicial do aplicativo  
     When ele digitar o nome de um produto na busca  
     Then o sistema deve exibir restaurantes que oferecem esse produto  
 
-  Scenario: Usuário pesquisa por um produto ou restaurante existente  
+  Scenario: Cliente pesquisa por um produto ou restaurante existente  
     Given que o usuário está na tela inicial do aplicativo  
     When ele digitar o nome de um produto ou restaurante na busca  
     Then o sistema deve exibir uma mensagem de produtos ou restaurantes não encontrados  
