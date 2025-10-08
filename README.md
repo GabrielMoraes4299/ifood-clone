@@ -39,9 +39,15 @@ prototipação de sistemas.
 - 🍴[Cliente](./Diagrama%20de%20Casos%20de%20Uso%20-%20Cliente.png)
 - 🛵[Entregador](./Diagrama%20de%20Casos%20de%20Uso%20-%20Entregador.png)
 
-### Telas
+### Wireframes
 - 🍽️[Esboço de Tela - Cliente](./Esboço%20de%20Tela%20-%20Cliente.png)  
 - 🛵[Esboço de Tela - Entregador](./Esboço%20de%20Tela%20-%20Entregador.png)  
+
+---
+
+### Interfaces
+- 🍽️[Interface - Cliente](./Interface%20-%20Cliente.png)  
+- 🛵[Interface - Entregador](./Interface%20-%20Entregador.png)  
 
 ---
 
