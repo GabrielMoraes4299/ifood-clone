@@ -31,50 +31,50 @@ prototipação de sistemas.
 
 ## Buscar restaurantes e produtos
   Scenario: Cliente pesquisa por um restaurante existente  
-    Given que o usuário está na tela inicial do aplicativo  
+    Given que o cliente está na tela inicial do aplicativo  
     When ele digitar o nome de um restaurante na busca  
     Then o sistema deve exibir a lista de restaurantes correspondentes  
 
   Scenario: Cliente pesquisa por um produto existente  
-    Given que o usuário está na tela inicial do aplicativo  
+    Given que o cliente está na tela inicial do aplicativo  
     When ele digitar o nome de um produto na busca  
     Then o sistema deve exibir restaurantes que oferecem esse produto  
 
   Scenario: Cliente pesquisa por um produto ou restaurante existente  
-    Given que o usuário está na tela inicial do aplicativo  
+    Given que o cliente está na tela inicial do aplicativo  
     When ele digitar o nome de um produto ou restaurante na busca  
     Then o sistema deve exibir uma mensagem de produtos ou restaurantes não encontrados  
 
 ---
 
 ## Adicionar e remover itens do carrinho
-  Scenario: Usuário adiciona um item ao carrinho  
-    Given que o usuário visualiza um cardápio de restaurante  
+  Scenario: Cliente adiciona um item ao carrinho  
+    Given que o cliente visualiza um cardápio de restaurante  
     When ele selecionar um produto e clicar em "Adicionar ao carrinho"  
     Then o produto deve ser incluído no carrinho  
 
-  Scenario: Usuário remove um item do carrinho  
-    Given que o usuário possui itens no carrinho  
+  Scenario: Cliente remove um item do carrinho  
+    Given que o cliente possui itens no carrinho  
     When ele clicar em "Remover" em um produto do carrinho  
     Then o produto deve ser retirado do carrinho  
 
 ---
 
 ## Finalizar pedido e pagar
-  Scenario: Usuário finaliza pedido com sucesso  
-    Given que o usuário tem itens no carrinho  
+  Scenario: Cliente finaliza pedido com sucesso  
+    Given que o cliente tem itens no carrinho  
     And escolheu a forma de pagamento  
     When ele clicar em "Finalizar pedido"  
     Then o sistema deve registrar o pedido  
     And o pagamento deve ser processado  
-    And o usuário deve ver a confirmação com o tempo estimado de entrega  
+    And o cliente deve ver a confirmação com o tempo estimado de entrega  
 
   Scenario: Pagamento não autorizado  
-    Given que o usuário tem itens no carrinho  
+    Given que o cliente tem itens no carrinho  
     And escolheu a forma de pagamento  
     When o pagamento for recusado pelo sistema de pagamento  
     Then o sistema deve informar que o pagamento não foi autorizado  
-    And permitir que o usuário tente novamente ou escolha outra forma de pagamento  
+    And permitir que o cliente tente novamente ou escolha outra forma de pagamento  
 
 ---
 
@@ -138,11 +138,11 @@ Then o sistema deve exibir os pedidos pendentes com itens, endereço e forma de 
 - [Gerenciar Carrinho](./Diagrama%20de%20Sequência%20-%20Gerenciar%20Carrinho.png)
 
 ## Diagramas de Caso de Uso
-- [Usuário](./Diagrama%20de%20Casos%20de%20Uso%20-%20Usuário.png)
+- [Cliente](./Diagrama%20de%20Casos%20de%20Uso%20-%20Cliente.png)
 - [Entregador](./Diagrama%20de%20Casos%20de%20Uso%20-%20Entregador.png)
 
 ## Telas
-- [Esboço de Tela - Usuário](./Esboço%20de%20Tela%20-%20Usuário.png)  
+- [Esboço de Tela - Cliente](./Esboço%20de%20Tela%20-%20Cliente.png)  
 - [Esboço de Tela - Entregador](./Esboço%20de%20Tela%20-%20Entregador.png)  
 
 ---
@@ -178,4 +178,4 @@ Then o sistema deve exibir os pedidos pendentes com itens, endereço e forma de 
 ## Confiabilidade
 - O sistema deve ter disponibilidade mínima de 99,5% (SLA mensal).
 - Deve existir um plano de recuperação em caso de falhas (backup automático e redundância de servidores).
-- Em caso de falha de um serviço (ex.: pagamento), o sistema deve informar claramente o usuário e permitir nova tentativa.
+- Em caso de falha de um serviço (ex.: pagamento), o sistema deve informar claramente ao usuário e permitir nova tentativa.
