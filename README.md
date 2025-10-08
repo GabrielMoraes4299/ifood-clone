@@ -8,9 +8,8 @@ prototipação de sistemas.
 
 ---
 
-# Autores
-- Gabriel Chagas Fernandes de Moraes – Análise e Desenvolvimento de Sistemas  
-Trabalho desenvolvido para a disciplina de Engenharia de Software.
+# Autor
+- Gabriel Chagas Fernandes de Moraes – Análise e Desenvolvimento de Sistemas
 
 ---
 
