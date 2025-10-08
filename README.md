@@ -16,32 +16,32 @@ prototipação de sistemas.
 # Levantamento de Requisitos
 
 ### Histórias de Usuário
-- [Cliente](./História%20de%20Usuário%20-%20Cliente.md)
-- [Entregador](./História%20de%20Usuário%20-%20Entregador.md)
+- 👤[Cliente](./História%20de%20Usuário%20-%20Cliente.md)
+- 🛵[Entregador](./História%20de%20Usuário%20-%20Entregador.md)
 
 ---
 
 ### Gherkin
-- [Cliente](./Gherkin%20-%20Cliente.md)
-- [Entregador](./Gherkin%20-%20Entregador.md)
+- 🙋[Cliente](./Gherkin%20-%20Cliente.md)
+- 📦[Entregador](./Gherkin%20-%20Entregador.md)
 ---
 
 # Documentação do Projeto
 
 ### Diagramas de Sequência
-- [Realizar Pagamento](./Diagrama%20de%20Sequência%20-%20Realizar%20Pagamento.png)
-- [Visualizar Detalhes do Pedido](./Diagrama%20de%20Sequência%20-%20Visualizar%20Detalhes%20do%20Pedido.png)
-- [Visualizar Histórico de Entregas](./Diagrama%20de%20Sequência%20-%20Visualizar%20Histórico%20de%20Entregas.png)
-- [Buscar Produtos](./Diagrama%20de%20Sequência%20-%20Buscar%20Produtos.png)
-- [Gerenciar Carrinho](./Diagrama%20de%20Sequência%20-%20Gerenciar%20Carrinho.png)
+- 💵[Realizar Pagamento](./Diagrama%20de%20Sequência%20-%20Realizar%20Pagamento.png)
+- 🍔[Visualizar Detalhes do Pedido](./Diagrama%20de%20Sequência%20-%20Visualizar%20Detalhes%20do%20Pedido.png)
+- 📜[Visualizar Histórico de Entregas](./Diagrama%20de%20Sequência%20-%20Visualizar%20Histórico%20de%20Entregas.png)
+- 🔍[Buscar Produtos](./Diagrama%20de%20Sequência%20-%20Buscar%20Produtos.png)
+- 🛒[Gerenciar Carrinho](./Diagrama%20de%20Sequência%20-%20Gerenciar%20Carrinho.png)
 
 ### Diagramas de Caso de Uso
-- [Cliente](./Diagrama%20de%20Casos%20de%20Uso%20-%20Cliente.png)
-- [Entregador](./Diagrama%20de%20Casos%20de%20Uso%20-%20Entregador.png)
+- 🍴[Cliente](./Diagrama%20de%20Casos%20de%20Uso%20-%20Cliente.png)
+- 🛵[Entregador](./Diagrama%20de%20Casos%20de%20Uso%20-%20Entregador.png)
 
 ### Telas
-- [Esboço de Tela - Cliente](./Esboço%20de%20Tela%20-%20Cliente.png)  
-- [Esboço de Tela - Entregador](./Esboço%20de%20Tela%20-%20Entregador.png)  
+- 🍽️[Esboço de Tela - Cliente](./Esboço%20de%20Tela%20-%20Cliente.png)  
+- 🛵[Esboço de Tela - Entregador](./Esboço%20de%20Tela%20-%20Entregador.png)  
 
 ---
 
