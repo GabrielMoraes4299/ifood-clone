@@ -52,35 +52,21 @@ prototipação de sistemas.
 
 ---
 
-# Requisitos Não-Funcionais
+## ✅ Requisitos Não Funcionais
 
-### Usabilidade
-- A interface deve ser intuitiva e responsiva, permitindo que usuários e entregadores utilizem o app sem necessidade de treinamento.
-- O fluxo de pedido (buscar → adicionar ao carrinho → pagar) deve ser concluído em poucos cliques.
-- Deve oferecer acessibilidade, com suporte a leitores de tela e contraste adequado.
+Abaixo estão listados os principais requisitos não funcionais do sistema, juntamente com as formas de comprovar que cada um foi considerado e atendido durante o desenvolvimento do projeto.
 
-### Desempenho
-- O sistema deve suportar milhares de usuários simultâneos sem degradação significativa de desempenho.
-- O tempo de resposta das requisições (ex.: buscar restaurantes, atualizar carrinho) deve ser inferior a 2 segundos em condições normais de rede.
-- O carregamento das telas deve ser otimizado para dispositivos móveis de média performance.
+| **Requisito Não Funcional** | **Descrição** | **Método de Validação (Comprovação)** |
+|------------------------------|----------------|----------------------------------|
+| **Desempenho** | O sistema deve responder em até 2 segundos após uma ação do usuário. | Foi realizado um teste prático medindo o tempo de resposta das telas e requisições. O tempo médio ficou abaixo de 2 segundos, comprovando boa performance. |
+| **Usabilidade** | O sistema deve ser fácil de usar, com interface intuitiva e clara. | O design foi criado no [Figma](https://www.figma.com/design/0wILuw3bEQJP4ZskA0KHIF/ifood-clone---Gabriel-Chagas?node-id=0-1&t=hMnF3ZHYifUxAjAL-1) e validado com usuários-teste. A navegação é simples e direta. |
+| **Confiabilidade** | O sistema deve funcionar sem travamentos ou erros inesperados. | Foram realizados testes manuais e automatizados. Nenhum erro crítico foi encontrado durante a demonstração contínua do sistema. |
+| **Segurança** | Os dados sensíveis devem ser protegidos e acessíveis apenas a usuários autorizados. | Implementado controle de autenticação e verificação de login. As senhas são tratadas de forma segura e as rotas protegidas. |
+| **Manutenibilidade** | O código deve ser organizado e bem documentado, facilitando futuras alterações. | O repositório segue boas práticas, com README, commits descritivos e comentários no código. A estrutura de pastas está clara e modular. |
+| **Compatibilidade** | O sistema deve funcionar corretamente em diferentes dispositivos e navegadores. | O design responsivo foi testado em versões desktop e mobile, garantindo compatibilidade com Chrome, Edge e Firefox. |
+| **Escalabilidade** | A aplicação deve suportar o aumento de usuários sem perda de desempenho. | A arquitetura foi pensada com separação de camadas e consumo de API, facilitando o aumento de carga futura. |
+| **Disponibilidade** | O sistema deve estar disponível para acesso a qualquer momento. | O projeto está hospedado em ambiente online confiável, garantindo acesso contínuo ao cliente e usuários. |
+| **Portabilidade** | O sistema deve poder ser executado em diferentes ambientes. | O projeto pode ser rodado localmente ou hospedado em cloud, com suporte a múltiplos sistemas operacionais. |
+| **Acessibilidade** | A interface deve ser legível e navegável por todos os tipos de usuários. | Foram aplicados contrastes adequados, textos legíveis e suporte à navegação por teclado. Avaliado com ferramenta Lighthouse. |
 
-### Manutenibilidade
-- O código deve seguir boas práticas de desenvolvimento (ex.: padrões de projeto, separação em camadas).
-- O sistema deve possuir testes automatizados que facilitem futuras atualizações sem comprometer funcionalidades existentes.
-- A arquitetura deve ser modular, permitindo substituição ou atualização de componentes sem afetar o todo.
-
-### Portabilidade
-- O aplicativo deve estar disponível para Android e iOS.
-- A aplicação web (se houver) deve ser compatível com os principais navegadores (Chrome, Edge, Safari, Firefox).
-- O sistema deve ser adaptável a diferentes resoluções de tela (celulares, tablets).
-
-### Segurança
-- Os dados dos usuários e entregadores devem ser criptografados em trânsito (HTTPS/TLS).
-- As informações sensíveis (como senhas e dados de pagamento) devem ser armazenadas de forma segura (hash/salt, PCI DSS).
-- O sistema deve implementar autenticação segura (ex.: OAuth2, JWT).
-- Deve haver proteção contra ataques comuns (SQL Injection, XSS, CSRF).
-
-### Confiabilidade
-- O sistema deve ter disponibilidade mínima de 99,5% (SLA mensal).
-- Deve existir um plano de recuperação em caso de falhas (backup automático e redundância de servidores).
-- Em caso de falha de um serviço (ex.: pagamento), o sistema deve informar claramente ao usuário e permitir nova tentativa.
+---
