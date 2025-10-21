@@ -48,6 +48,7 @@ prototipação de sistemas.
 ### Interfaces
 - 🍽️[Interface - Cliente](./Interface%20-%20Cliente.png)  
 - 🛵[Interface - Entregador](./Interface%20-%20Entregador.png)  
+- 🎨[Protótipo no Figma](https://www.figma.com/design/0wILuw3bEQJP4ZskA0KHIF/ifood-clone---Gabriel-Chagas?node-id=0-1&t=hMnF3ZHYifUxAjAL-1)
 
 ---
 
