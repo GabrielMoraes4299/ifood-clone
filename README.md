@@ -63,6 +63,11 @@ Abaixo estão listados os principais requisitos não funcionais do sistema, junt
 | **Confiabilidade** | O sistema deve funcionar sem travamentos ou erros inesperados. | Foram realizados testes manuais e automatizados. Nenhum erro crítico foi encontrado durante a demonstração contínua do sistema. |
 | **Segurança** | Os dados sensíveis devem ser protegidos e acessíveis apenas a usuários autorizados. | Implementado controle de autenticação e verificação de login. As senhas são tratadas de forma segura e as rotas protegidas. |
 | **Manutenibilidade** | O código deve ser organizado e bem documentado, facilitando futuras alterações. | O repositório segue boas práticas, com README, commits descritivos e comentários no código. A estrutura de pastas está clara e modular. |
+| **Compatibilidade** | O sistema deve funcionar corretamente em diferentes dispositivos e navegadores. | O design responsivo foi testado em versões desktop e mobile, garantindo compatibilidade com Chrome, Edge e Firefox. |
+| **Escalabilidade** | A aplicação deve suportar o aumento de usuários sem perda de desempenho. | A arquitetura foi pensada com separação de camadas e consumo de API, facilitando o aumento de carga futura. |
+| **Disponibilidade** | O sistema deve estar disponível para acesso a qualquer momento. | O projeto está hospedado em ambiente online confiável, garantindo acesso contínuo ao cliente e usuários. |
+| **Portabilidade** | O sistema deve poder ser executado em diferentes ambientes. | O projeto pode ser rodado localmente ou hospedado em cloud, com suporte a múltiplos sistemas operacionais. |
+| **Acessibilidade** | A interface deve ser legível e navegável por todos os tipos de usuários. | Foram aplicados contrastes adequados, textos legíveis e suporte à navegação por teclado. Avaliado com ferramenta Lighthouse. |
 
 ---
 
@@ -70,8 +75,3 @@ Abaixo estão listados os principais requisitos não funcionais do sistema, junt
 
 Obrigado por conferir este projeto! 🚀💻  
 Esperamos que ele seja útil e divertido de explorar ⭐✨
-| **Compatibilidade** | O sistema deve funcionar corretamente em diferentes dispositivos e navegadores. | O design responsivo foi testado em versões desktop e mobile, garantindo compatibilidade com Chrome, Edge e Firefox. |
-| **Escalabilidade** | A aplicação deve suportar o aumento de usuários sem perda de desempenho. | A arquitetura foi pensada com separação de camadas e consumo de API, facilitando o aumento de carga futura. |
-| **Disponibilidade** | O sistema deve estar disponível para acesso a qualquer momento. | O projeto está hospedado em ambiente online confiável, garantindo acesso contínuo ao cliente e usuários. |
-| **Portabilidade** | O sistema deve poder ser executado em diferentes ambientes. | O projeto pode ser rodado localmente ou hospedado em cloud, com suporte a múltiplos sistemas operacionais. |
-| **Acessibilidade** | A interface deve ser legível e navegável por todos os tipos de usuários. | Foram aplicados contrastes adequados, textos legíveis e suporte à navegação por teclado. Avaliado com ferramenta Lighthouse. |
