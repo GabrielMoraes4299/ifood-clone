@@ -54,20 +54,20 @@ prototipação de sistemas.
 
 ## ✅ Requisitos Não Funcionais
 
-Abaixo estão listados os principais requisitos não funcionais do sistema, juntamente com as formas de comprovar que cada um foi considerado e atendido durante o desenvolvimento do projeto.
+Abaixo estão listados os principais requisitos não funcionais do sistema *iFood Clone*, juntamente com as formas de comprovar que cada um foi considerado e atendido durante o desenvolvimento do projeto.
 
 | **Requisito Não Funcional** | **Descrição** | **Método de Validação (Comprovação)** |
 |------------------------------|----------------|----------------------------------|
-| **Desempenho** | O sistema deve responder em até 2 segundos após uma ação do usuário. | Foi realizado um teste prático medindo o tempo de resposta das telas e requisições. O tempo médio ficou abaixo de 2 segundos, comprovando boa performance. |
-| **Usabilidade** | O sistema deve ser fácil de usar, com interface intuitiva e clara. | O design foi criado no [Figma](https://www.figma.com/design/0wILuw3bEQJP4ZskA0KHIF/ifood-clone---Gabriel-Chagas?node-id=0-1&t=hMnF3ZHYifUxAjAL-1) e validado com usuários-teste. A navegação é simples e direta. |
-| **Confiabilidade** | O sistema deve funcionar sem travamentos ou erros inesperados. | Foram realizados testes manuais e automatizados. Nenhum erro crítico foi encontrado durante a demonstração contínua do sistema. |
-| **Segurança** | Os dados sensíveis devem ser protegidos e acessíveis apenas a usuários autorizados. | Implementado controle de autenticação e verificação de login. As senhas são tratadas de forma segura e as rotas protegidas. |
-| **Manutenibilidade** | O código deve ser organizado e bem documentado, facilitando futuras alterações. | O repositório segue boas práticas, com README, commits descritivos e comentários no código. A estrutura de pastas está clara e modular. |
-| **Compatibilidade** | O sistema deve funcionar corretamente em diferentes dispositivos e navegadores. | O design responsivo foi testado em versões desktop e mobile, garantindo compatibilidade com Chrome, Edge e Firefox. |
-| **Escalabilidade** | A aplicação deve suportar o aumento de usuários sem perda de desempenho. | A arquitetura foi pensada com separação de camadas e consumo de API, facilitando o aumento de carga futura. |
-| **Disponibilidade** | O sistema deve estar disponível para acesso a qualquer momento. | O projeto está hospedado em ambiente online confiável, garantindo acesso contínuo ao cliente e usuários. |
-| **Portabilidade** | O sistema deve poder ser executado em diferentes ambientes. | O projeto pode ser rodado localmente ou hospedado em cloud, com suporte a múltiplos sistemas operacionais. |
-| **Acessibilidade** | A interface deve ser legível e navegável por todos os tipos de usuários. | Foram aplicados contrastes adequados, textos legíveis e suporte à navegação por teclado. Avaliado com ferramenta Lighthouse. |
+| **Desempenho** | O sistema deve responder rapidamente às ações do usuário, garantindo fluidez na navegação e no carregamento dos restaurantes e produtos. | Foram realizados testes práticos medindo o tempo de resposta das telas e das requisições à API. As telas principais carregam em até 2 segundos, comprovando boa performance. |
+| **Usabilidade** | O sistema deve ser fácil de usar, com interface intuitiva e semelhante a aplicativos de delivery reais. | O design foi criado no [Figma](https://www.figma.com/design/0wILuw3bEQJP4ZskA0KHIF/ifood-clone---Gabriel-Chagas?node-id=0-1&t=hMnF3ZHYifUxAjAL-1) e validado com usuários-teste. A navegação segue padrões familiares, como menus fixos e ícones intuitivos. |
+| **Confiabilidade** | O sistema deve funcionar sem falhas, exibindo corretamente os pedidos, produtos e informações dos restaurantes. | Foram realizados testes manuais e simulações de fluxo completo (cadastro, login, pedido). Nenhum erro crítico foi identificado durante o uso contínuo do sistema. |
+| **Segurança** | Os dados dos usuários (login, senha e pedidos) devem ser protegidos contra acesso não autorizado. | Foi implementado controle de autenticação, criptografia de senhas e validação de campos. As requisições sensíveis são tratadas com segurança. |
+| **Manutenibilidade** | O código deve ser modular e bem documentado, permitindo futuras atualizações, como inclusão de novas funcionalidades. | O repositório segue boas práticas de desenvolvimento, com commits descritivos, organização em componentes e documentação clara no README. |
+| **Compatibilidade** | O sistema deve funcionar corretamente em diferentes tamanhos de tela (smartphones e tablets). | O layout responsivo foi testado em emuladores Android e iOS, garantindo boa experiência visual e funcional em diferentes resoluções. |
+| **Escalabilidade** | A aplicação deve suportar o crescimento do número de usuários, restaurantes e pedidos. | A arquitetura utiliza comunicação via API e separação entre front-end e back-end, permitindo expansão futura sem comprometer o desempenho. |
+| **Disponibilidade** | O sistema deve estar acessível para usuários e restaurantes sempre que necessário. | O projeto pode ser hospedado em ambiente de nuvem (como Azure), com alta disponibilidade e estabilidade durante testes de uso. |
+| **Portabilidade** | O sistema deve poder ser executado em diferentes plataformas (web e mobile). | O projeto foi desenvolvido em Flutter, permitindo execução em Android, iOS e Web a partir do mesmo código-fonte. |
+| **Acessibilidade** | O sistema deve ser acessível e legível para todos os tipos de usuários. | Foram aplicados contrastes adequados, textos legíveis e botões grandes. Também foi avaliado com o Lighthouse para garantir boa acessibilidade. |
 
 ---
 
