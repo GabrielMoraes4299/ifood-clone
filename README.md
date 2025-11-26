@@ -53,7 +53,7 @@ prototipação de sistemas.
 ---
 
 ### 5WHH
-#### 5W (as 5 perguntas que começam com W):
+#### 5W:
 
 - What? — O que será feito?
 
@@ -65,7 +65,7 @@ prototipação de sistemas.
 
 - Who? — Quem fará?
 
-#### 2H (as 2 perguntas que começam com H):
+#### 2H:
 
 - How? — Como será feito?
 
