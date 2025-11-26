@@ -65,6 +65,8 @@ prototipação de sistemas.
 
 - Who? — Quem fará?
 
+- Motivação da Equipe.
+
 #### 2H:
 
 - How? — Como será feito?
