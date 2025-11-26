@@ -52,6 +52,27 @@ prototipação de sistemas.
 
 ---
 
+### 5WHH
+#### 5W (as 5 perguntas que começam com W):
+
+- What? — O que será feito?
+
+- Why? — Por que será feito?
+
+- When? — Quando será feito?
+
+- Where? — Onde será feito?
+
+- Who? — Quem fará?
+
+#### 2H (as 2 perguntas que começam com H):
+
+- How? — Como será feito?
+
+- How Much? — Quanto vai custar? (recursos, tempo, custo financeiro)
+
+---
+
 ## ✅ Requisitos Não Funcionais
 
 Abaixo estão listados os principais requisitos não funcionais do sistema *iFood Clone*, juntamente com as formas de comprovar que cada um foi considerado e atendido durante o desenvolvimento do projeto.
