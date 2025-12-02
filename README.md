@@ -201,19 +201,76 @@ Desenvolver um **sistema completo de delivery**, semelhante ao iFood, contendo:
 
 ##### 2. **HOW MUCH – Quanto vai custar?**
 
-##### Custos estimados (6 meses)  
-Sem limite de verba, considerando equipe SENIOR.
+##### 💵 1. Custos de Equipe (Salários × 7 meses)
 
-| Item | Custo |
-|------|-------|
-| Salários (somados e multiplicados por **1,8**, como solicitado) | **R$ 630.000 a R$ 900.000** |
-| Infraestrutura Azure | R$ 7.000 – R$ 15.000 |
-| APIs externas (Maps, pagamentos etc.) | R$ 2.000 – R$ 6.000 |
-| Licenças, ferramentas, design | R$ 5.000 – R$ 10.000 |
+##### 💼 Custo mensal total da equipe
+**R$ 241.200 / mês**
 
-##### 💰 **Custo total estimado: R$ 650.000 a R$ 930.000**
+##### 🧮 Custo total por 7 meses
+**R$ 241.200 × 7 = R$ 1.688.400**
 
 ---
+
+##### 👤 2. Custos com Usuários-Teste Não Contaminados
+
+Os testes ocorrerão em **3 fases**:
+- App do Cliente  
+- App do Entregador  
+- Painel do Restaurante  
+
+Cada fase terá **10 usuários** recebendo **R$ 60 por teste**.
+
+**Total:**  
+10 usuários × 3 fases × R$ 60 = **R$ 1.800**
+
+---
+
+##### ☁️ 3. Infraestrutura (Azure + APIs externas)
+
+Estimativa realista para 7 meses de desenvolvimento (com uso moderado):
+
+| Serviço | Custo Mensal | Custo total (7 meses) |
+|--------|---------------|------------------------|
+| Azure App Services (3 apps) | R$ 550 | R$ 3.850 |
+| Azure PostgreSQL | R$ 400 | R$ 2.800 |
+| Azure Blob Storage | R$ 60 | R$ 420 |
+| Azure Monitor / Logs | R$ 100 | R$ 700 |
+| Google Maps API | R$ 150 | R$ 1.050 |
+| Firebase (Push + Auth auxiliar) | R$ 50 | R$ 350 |
+| Stripe (teste / mínimo operacional) | R$ 50 | R$ 350 |
+
+**Total de Infraestrutura (7 meses):**  
+**R$ 9.520**
+
+---
+
+##### 🎨 4. Ferramentas e Licenças
+
+| Ferramenta | Custo Mensal | Total (7 meses) |
+|------------|--------------|------------------|
+| Figma (1 editor) | R$ 99 | R$ 693 |
+| GitHub | R$ 0 | R$ 0 |
+| Notion / Documentação | R$ 0 | R$ 0 |
+
+**Total de Ferramentas:**  
+**R$ 693**
+
+---
+
+### 🧾 **Resumo Geral dos Custos**
+
+| Categoria | Valor |
+|----------|--------|
+| **Equipe (7 meses)** | **R$ 1.688.400** |
+| **Usuários-teste** | **R$ 1.800** |
+| **Infraestrutura (Azure + APIs)** | **R$ 9.520** |
+| **Ferramentas** | **R$ 693** |
+
+---
+
+### 💰 **Custo Final do Projeto (7 meses)**
+
+### 👉 **R$ 1.700.413**
 
 ---
 
