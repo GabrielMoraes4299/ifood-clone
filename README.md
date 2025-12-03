@@ -151,7 +151,7 @@ Desenvolver um **sistema completo de delivery**, semelhante ao iFood, contendo:
 | **Dev Flutter (Entregador)**           | 1   | R$ 16.200 / mês            | App do entregador, rotas, GPS, tracking |
 | **Backend Developer (Python + Django)**| 3   | R$ 18.000 / mês (cada)     | APIs, autenticação, pagamentos, lógica de pedidos |
 | **Frontend Web (Angular)**             | 2   | R$ 16.200 / mês (cada)     | Painel do restaurante e admin |
-| **DevOps / Infraestrutura**            | 1   | R$ 19.800 / mês            | Deploy, CI/CD, Azure, monitoramento |
+| **DevSecOps / Infraestrutura**            | 1   | R$ 19.800 / mês            | Deploy, CI/CD, Azure, monitoramento |
 | **QA Tester**                          | 1   | R$ 12.600 / mês            | Testes contínuos, validação, checklist |
 | **DBA / Eng. Dados**                   | 1   | R$ 18.000 / mês            | Modelagem, otimização, migrações |
 | **Usuários-Teste Remunerados**         | 10  | R$ 60 por teste (cada)     | Testes não contaminados, feedback real |
