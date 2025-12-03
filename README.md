@@ -79,7 +79,7 @@ Desenvolver um **sistema completo de delivery**, semelhante ao iFood, contendo:
 - Rota até o cliente  
 - Status da entrega  
 
-##### 👨🏻‍🍳 Aplicativo/Painel do Restaurante
+##### 👨🏻‍🍳 Painel WEB do Restaurante
 - Cadastro  
 - Cardápio  
 - Gestão de pedidos  
