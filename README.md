@@ -104,7 +104,7 @@ Desenvolver um **sistema completo de delivery**, semelhante ao iFood, contendo:
 
 ---
 
-##### 3️. **WHEN – Quando será feito?**
+##### 3. **WHEN – Quando será feito?**
 
 ##### 📅 Cronograma geral (7 meses)
 
@@ -125,7 +125,7 @@ Desenvolver um **sistema completo de delivery**, semelhante ao iFood, contendo:
 
 ---
 
-##### 4️. **WHERE – Onde será feito?**
+##### 4. **WHERE – Onde será feito?**
 - Desenvolvimento remoto (home office)
 - Repositórios e versionamento no **GitHub**
 - Organização de tarefas no **GitHub Projects / Issues / Milestones**
@@ -138,7 +138,7 @@ Desenvolver um **sistema completo de delivery**, semelhante ao iFood, contendo:
   - Banco de dados: Azure PostgreSQL
   - Storage: Azure Blob Storage
 
-##### 5️. **WHO – Quem fará?**
+##### 5. **WHO – Quem fará?**
 
 ##### 👥 Equipe necessária e responsabilidades
 
